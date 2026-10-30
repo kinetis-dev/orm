@@ -10,15 +10,15 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/persistence": "dev-main",
-        "kinetis/query-builder": "dev-main"
+        "kinetis/persistence": "^1.4.5",
+        "kinetis/query-builder": "^1.8.2"
     },
     "require-dev": {
         "infection/infection": "^0.35.0",
-        "kinetis/database-bridge": "dev-main",
-        "kinetis/framework": "dev-main",
-        "kinetis/queue": "dev-main",
-        "kinetis/queue-sql": "dev-main",
+        "kinetis/database-bridge": "^1.4.2",
+        "kinetis/framework": "^1.24.1",
+        "kinetis/queue": "^1.7.2",
+        "kinetis/queue-sql": "^1.6.6",
         "phpstan/phpstan": "^2.2.8",
         "phpunit/phpunit": "^13.3.3",
         "vimeo/psalm": "^6.17"
@@ -36,32 +36,6 @@
     "extra": {
         "kinetis": {}
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../framework"
-        },
-        {
-            "type": "path",
-            "url": "../queue"
-        },
-        {
-            "type": "path",
-            "url": "../database-bridge"
-        },
-        {
-            "type": "path",
-            "url": "../queue-sql"
-        },
-        {
-            "type": "path",
-            "url": "../persistence"
-        },
-        {
-            "type": "path",
-            "url": "../query-builder"
-        }
-    ],
     "config": {
         "sort-packages": true,
         "allow-plugins": {
